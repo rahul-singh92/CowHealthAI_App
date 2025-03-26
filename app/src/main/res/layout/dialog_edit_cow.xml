@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/dialog_edit_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Cow Details"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/edit_cow_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cow Name" />
+
+    <EditText
+        android:id="@+id/edit_cow_breed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Breed" />
+
+    <EditText
+        android:id="@+id/edit_cow_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Weight (kg)"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/edit_cow_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age (years)"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/edit_cow_milk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Milk Production (L)"
+        android:inputType="numberDecimal" />
+</LinearLayout>

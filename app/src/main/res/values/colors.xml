@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="menu_bar_color">#FFFFFF</color>
+    <color name="gray">#BDBDBD</color>
+    <color name="lightGray">#F5F5F5</color>
+    <color name="red">#D32F2F</color>
+    <color name="colorPrimary">#1565C0</color> <!-- Deep Blue -->
+    <color name="colorPrimaryDark">#0D47A1</color> <!-- Darker Shade for Toolbar -->
+    <color name="colorAccent">#FF9800</color> <!-- Accent Color -->
+    <color name="blue">#4285F4</color> <!-- Google Blue -->
+    <color name="dark_gray">#121212</color> <!-- Dark mode background -->
+    <color name="chat_background">#F7F8FC</color> <!-- Light Background -->
+    <color name="chat_blue">#4285F4</color> <!-- ChatGPT Blue -->
+    <color name="purple80">#D0BCFF</color>
+    <color name="purple_grey80">#CCC2DC</color>
+    <color name="pink80">#EFB8C8</color>
+
+    <color name="purple40">#6650a4</color>
+    <color name="purple_grey40">#625b71</color>
+    <color name="pink40">#7D5260</color>
+
+    <color name="colorUserMessage">#03A9F4</color>
+    <color name="colorModelMessage">#4CAF50</color>
+</resources>

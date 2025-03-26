@@ -1,0 +1,43 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:background="@color/white"
+    android:elevation="2dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/cow_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cow Name"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/cow_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Breed, Age, Milk Production"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+    <!-- 3-dot menu button -->
+    <ImageView
+        android:id="@+id/menu_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_more_vert"
+        android:contentDescription="Menu"
+        android:padding="8dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"/>
+
+</LinearLayout>
