@@ -1,10 +1,11 @@
 package com.zombies.cowhealthai;
 
 import android.os.Bundle;
+
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -29,9 +30,9 @@ public class EducationalContentActivity extends AppCompatActivity {
 
     private void loadVideos() {
         videoList.add(new VideoModel("All About Farms", "KJzmM9SL0mA"));
-        videoList.add(new VideoModel("Test Video 2", "3JZ_D3ELwOQ")); // SpaceX Falcon Heavy Test Flight
-        videoList.add(new VideoModel("Test Video 3", "L3pk_TBkihU")); // National Geographic - Lions Documentary
-        videoList.add(new VideoModel("Test Video 4", "M7lc1UVf-VE")); // YouTube API Test Video
-        videoList.add(new VideoModel("Test Video 5", "e-ORhEE9VVg")); // Taylor Swift - Blank Space
+        videoList.add(new VideoModel("Facts About Cows", "VH62Sxy5IvI")); // SpaceX Falcon Heavy Test Flight
+        videoList.add(new VideoModel("All About Cows", "AuEX9umtfLM")); // National Geographic - Lions Documentary
+        videoList.add(new VideoModel("Farm Animals", "zFtMamMUAVw")); // YouTube API Test Video
+        videoList.add(new VideoModel("4 Reasons Cows are Awesome", "m9eqt6YPI7Y")); // Taylor Swift - Blank Space
     }
 }

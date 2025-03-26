@@ -31,7 +31,7 @@ public class ChatbotActivity extends AppCompatActivity {
     private ArrayList<Message> messageList = new ArrayList<>();
     private TextView generatingText;
     private static final String API_URL = "https://openrouter.ai/api/v1/chat/completions";
-    private static final String API_KEY = "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";  // Replace with actual API key
+    private static final String API_KEY = "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";  // Replace with actual API key
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
